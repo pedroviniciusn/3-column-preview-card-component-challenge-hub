@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+.container {
+  width: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .background1 {
+  background-color: #e38826;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.container .background2 {
+  background-color: #006970;
+}
+
+.container .background3 {
+  background-color: #004241;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.container .card1 {
+  color: #e38826;
+}
+
+.container .card1:hover {
+  background-color: #e38826;
+  color: white;
+}
+
+.container .card2 {
+  color: #006970;
+}
+
+.container .card2:hover {
+  background-color: #006970;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.container .card3 {
+  color: #004241;
+}
+
+.container .card3:hover {
+  background-color: #004241;
+  color: white;
+}
+
+.container .card {
+  text-align: center;
+  display: block;
+  padding: 100px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 280px;
+  margin-top: 22%;
+  color: white;
+}
+
+.container .card .icon-car {
+  padding: 30px 0 15px 0;
+  margin-top: -80px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 45px;
+}
+
+.container .card .car-class {
+  text-transform: uppercase;
+  padding: 20px 0 20px 50px;
+  text-align: left;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3rem;
+}
+
+.container .card p {
+  font-size: 1.4rem;
+  padding: 0 50px 50px 50px;
+  text-align: left;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container .card .button {
+  padding: 15px 30px;
+  border-radius: 100px;
+  border: none;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 45px;
+}
+
+.container .card .button:hover {
+  border: 1px solid white;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 40px 0 40px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .background1 {
+    border-radius: 8px 8px 0 0;
+  }
+  .container .background3 {
+    border-radius: 0 0 8px 8px;
+  }
+  .container .card {
+    margin: 0;
+  }
+}
+
+footer {
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.4rem;
+  margin-top: 150px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,137 @@
+@import 'base';
+@import 'variables';
+
+
+
+.container {
+    width: 100vh;
+    margin: 0 auto;
+    display: flex;
+
+    .background1 {
+        background-color: $primary;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;  
+    }
+
+    .background2 {
+        background-color: $secundary;
+    }
+
+    .background3 {
+        background-color: $tertiary;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .card1 {
+        color: $primary;
+
+        &:hover {
+            background-color: $primary;
+            color: white;
+        }
+    }
+
+    .card2 {
+        color: $secundary;
+
+        &:hover {
+            background-color: $secundary;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+    }
+
+    .card3 {
+        color: $tertiary;
+
+        &:hover {
+            background-color: $tertiary;
+            color: white;
+        }
+    }
+    
+    .card {
+        text-align: center;
+        display: block;
+        padding: 100px 0;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 280px;
+        margin-top: 22%;
+        color: white;
+
+
+        .icon-car {
+            padding: 30px 0 15px 0;
+            margin-top: -80px;
+            align-items: flex-start;
+            display: flex;
+            padding-left: 45px;
+        }
+
+        .car-class {
+            text-transform: uppercase;
+            padding: 20px 0 20px 50px;
+            text-align: left;
+            font-family: $cars;
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            padding: 0 50px 50px 50px;
+            text-align: left;
+            line-height: 30px;
+            color: $Transparent-white;
+            font-family: $text;
+        }
+
+        .button {
+            padding: 15px 30px;
+            border-radius: 100px; 
+            border: none;
+            align-items: flex-start;
+            display: flex;
+            margin-left: 45px; 
+            
+            &:hover {
+                border: 1px solid white;
+            }
+        }   
+    }
+}
+
+
+@media (max-width: 960px) {
+    .container {
+        width: 100%; 
+        flex-direction: column;
+        margin: 40px 0 40px 0;
+        align-items: center;
+
+        .background1 {
+            border-radius: 8px 8px 0 0 ;
+        }
+
+        .background3 {
+            border-radius: 0 0 8px 8px ;
+        }
+
+        .card {
+            margin: 0;
+        }
+    }
+
+    
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.4rem;
+    margin-top: 150px ;
+}
