@@ -1,7 +1,7 @@
 # 3-column-preview-card-component-challenge-hub
 Desafio do frontendmentor.io/challenges 
 <br>
-link para acesso:
+link para acesso: previewcomponet.netlify.app
 <br>
 captura de tela desktop:
 <br>
